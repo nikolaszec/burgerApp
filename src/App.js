@@ -6,7 +6,7 @@ class App extends Component {
 
   render() {
     return (
-      <Layout>X</Layout>
+      <Layout>Something to Add as props children</Layout>
       )
   }
   
