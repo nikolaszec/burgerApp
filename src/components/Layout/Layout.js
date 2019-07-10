@@ -5,7 +5,7 @@ const Layout = (props) => {
     return (
 
         <React.Fragment>
-        <div>Toolbar,SideDrawer, Backdrop</div>
+        <div>ToolbarComponent,SideDrawerComponent, BackdropComponent</div>
         <main>
             {props.children}
         </main>
