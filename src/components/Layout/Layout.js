@@ -1,12 +1,14 @@
 import React from 'react'
+import classes from '../Layout/Layout.module.css'
+import Toolbar from '../Navigation/Toolbar/Toolbar'
 
 const Layout = (props) => {
 
     return (
 
         <React.Fragment>
-        <div>ToolbarComponent,SideDrawerComponent, BackdropComponent</div>
-        <main>
+        <Toolbar />
+        <main className={classes.Content}>
             {props.children}
         </main>
         </React.Fragment>
@@ -15,5 +17,6 @@ const Layout = (props) => {
    
     
 }
+
 
 export default Layout

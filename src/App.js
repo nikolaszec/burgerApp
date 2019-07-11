@@ -1,12 +1,23 @@
 import React, {Component} from 'react';
 import Layout from '../src/components/Layout/Layout'
+import BurgerBuilder from '../src/containers/BurgerBuilder/BurgerBuilder'
 
 
 class App extends Component {
 
   render() {
     return (
-      <Layout>Something to Add as props children</Layout>
+  
+      <React.Fragment>
+      <Layout>
+     
+      <BurgerBuilder/>
+      </Layout>
+      
+      </React.Fragment>
+    
+
+      
       )
   }
   
